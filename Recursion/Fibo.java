@@ -1,8 +1,8 @@
 package DsaWithJava.Recursion;
 
-public class Fibo {
+public class  Fibo {
     public static void main(String[] args) {
-       int ans = fibo(7);
+       int ans = fibo(4 );
         System.out.println(ans);
 
     }
