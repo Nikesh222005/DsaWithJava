@@ -4,6 +4,7 @@ public class Nto1 {
     public static void main(String[] args) {
 //        fun(5);
         funRev(5);
+        Bothfun(5);
     }
     static void fun(int n){
         if(n==0){
@@ -18,5 +19,14 @@ public class Nto1 {
         }
         funRev(n-1);
         System.out.println(n);
+    }
+    static void Bothfun(int n){
+        if(n==0){
+            return ;
+        }
+        System.out.println(n);
+        funRev(n-1);
+        System.out.println(n);
+
     }
 }
