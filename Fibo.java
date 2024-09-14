@@ -1,5 +1,4 @@
 package DsaWithJava;
-
 import java.util.Scanner;
 
 public class Fibo {
